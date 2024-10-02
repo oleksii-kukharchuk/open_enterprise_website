@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'futuraRound';
+  src: url("../public/fonts/futura-round.ttf");
+} 
+
+@font-face {
+  font-family: 'belyDisplayRegular';
+  src: url("../public/fonts/bely-display-regular.ttf");
+} 
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 56px;
+  background-color: #F9F9F9;
+}
